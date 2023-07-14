@@ -15,7 +15,7 @@
 
     ```shell
     # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    yarn add gatsby
     ```
 
 2.  **Start developing.**
@@ -23,8 +23,8 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd algorithm-visualizer-new/
+    yarn run develop
     ```
 
 3.  **Open the code and start customizing!**
