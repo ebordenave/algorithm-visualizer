@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
@@ -36,7 +37,14 @@
     "@storybook/react": "^7.0.27",
     "@storybook/react-webpack5": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.27"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
